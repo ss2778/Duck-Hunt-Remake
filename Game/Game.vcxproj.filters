@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\field.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\levelmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\duck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roundmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\levelmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\roundmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="asset\connectionmap.xml" />
+    <Xml Include="asset\connections.xml" />
+    <Xml Include="asset\settings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="asset\sfx\dogHoldingDuck.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\duckFall.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\duckThud.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\fail.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\laugh.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\perfect.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\quack.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\wingFlap.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\gameOver.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\gameStart.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\gun.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\menu.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\roundClear.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="asset\sfx\threeBark.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="asset\NES - Duck Hunt - Backdrop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\NES - Duck Hunt - Backgrounds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\NES - Duck Hunt - Ducks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\NES - Duck Hunt - Title Screen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\dogSprites.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\cursor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\duckUI.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\NES - Duck Hunt - UI elements.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asset\numbers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
